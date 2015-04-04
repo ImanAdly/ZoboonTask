@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B7AE7D11AC4C3DE00702D7E /* ConnectUsingAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7AE7D01AC4C3DE00702D7E /* ConnectUsingAFNetworking.m */; };
+		0BA80C5D1ACC38B1006D8C72 /* zoboon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0BA80C5C1ACC38B1006D8C72 /* zoboon.jpeg */; };
 		0BABA25C1AC2D672004DCE23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BABA25B1AC2D672004DCE23 /* main.m */; };
 		0BABA25F1AC2D672004DCE23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BABA25E1AC2D672004DCE23 /* AppDelegate.m */; };
-		0BABA2621AC2D672004DCE23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BABA2611AC2D672004DCE23 /* ViewController.m */; };
+		0BABA2621AC2D672004DCE23 /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BABA2611AC2D672004DCE23 /* ProductsViewController.m */; };
 		0BABA2651AC2D672004DCE23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BABA2631AC2D672004DCE23 /* Main.storyboard */; };
 		0BABA2671AC2D672004DCE23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BABA2661AC2D672004DCE23 /* Images.xcassets */; };
 		0BABA26A1AC2D672004DCE23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BABA2681AC2D672004DCE23 /* LaunchScreen.xib */; };
 		0BABA2761AC2D672004DCE23 /* ZoboonTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BABA2751AC2D672004DCE23 /* ZoboonTaskTests.m */; };
+		0BBC186B1AC766F900E2B3B8 /* ProductCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBC186A1AC766F900E2B3B8 /* ProductCollectionViewCell.m */; };
+		0BBD182E1AC6138F009DBF87 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD182D1AC6138F009DBF87 /* Product.m */; };
+		0BBD18311AC61E5F009DBF87 /* ProductsCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD18301AC61E5F009DBF87 /* ProductsCollectionViewLayout.m */; };
+		D5EB4455BC313C14F32BF349 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE1964C06B7643C10DD0DA6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +33,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B7AE7CF1AC4C3DE00702D7E /* ConnectUsingAFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectUsingAFNetworking.h; sourceTree = "<group>"; };
+		0B7AE7D01AC4C3DE00702D7E /* ConnectUsingAFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectUsingAFNetworking.m; sourceTree = "<group>"; };
+		0BA80C5C1ACC38B1006D8C72 /* zoboon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zoboon.jpeg; sourceTree = "<group>"; };
 		0BABA2561AC2D672004DCE23 /* ZoboonTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoboonTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BABA25A1AC2D672004DCE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BABA25B1AC2D672004DCE23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0BABA25D1AC2D672004DCE23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0BABA25E1AC2D672004DCE23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0BABA2601AC2D672004DCE23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0BABA2611AC2D672004DCE23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0BABA2601AC2D672004DCE23 /* ProductsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
+		0BABA2611AC2D672004DCE23 /* ProductsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
 		0BABA2641AC2D672004DCE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BABA2661AC2D672004DCE23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0BABA2691AC2D672004DCE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0BABA26F1AC2D672004DCE23 /* ZoboonTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoboonTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BABA2741AC2D672004DCE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BABA2751AC2D672004DCE23 /* ZoboonTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoboonTaskTests.m; sourceTree = "<group>"; };
+		0BBC18691AC766F900E2B3B8 /* ProductCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCollectionViewCell.h; sourceTree = "<group>"; };
+		0BBC186A1AC766F900E2B3B8 /* ProductCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCollectionViewCell.m; sourceTree = "<group>"; };
+		0BBD18291AC61132009DBF87 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		0BBD182C1AC6138F009DBF87 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		0BBD182D1AC6138F009DBF87 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		0BBD182F1AC61E5E009DBF87 /* ProductsCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsCollectionViewLayout.h; sourceTree = "<group>"; };
+		0BBD18301AC61E5F009DBF87 /* ProductsCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsCollectionViewLayout.m; sourceTree = "<group>"; };
+		217E12841C2E25EFB5DB7AB4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BFD9196C23D4511D0F6A7EC8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EEE1964C06B7643C10DD0DA6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5EB4455BC313C14F32BF349 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +80,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B6D7BE51AD0303D00CCFEBD /* Products View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0BABA2601AC2D672004DCE23 /* ProductsViewController.h */,
+				0BABA2611AC2D672004DCE23 /* ProductsViewController.m */,
+			);
+			name = "Products View Controller";
+			sourceTree = "<group>";
+		};
+		0B7AE7CE1AC4C36A00702D7E /* Connect AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				0B7AE7CF1AC4C3DE00702D7E /* ConnectUsingAFNetworking.h */,
+				0B7AE7D01AC4C3DE00702D7E /* ConnectUsingAFNetworking.m */,
+			);
+			name = "Connect AFNetworking";
+			sourceTree = "<group>";
+		};
 		0BABA24D1AC2D671004DCE23 = {
 			isa = PBXGroup;
 			children = (
 				0BABA2581AC2D672004DCE23 /* ZoboonTask */,
 				0BABA2721AC2D672004DCE23 /* ZoboonTaskTests */,
 				0BABA2571AC2D672004DCE23 /* Products */,
+				DC195D4E2052258374A59E40 /* Pods */,
+				2DEC014A49CA3201DA4D7A21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +121,13 @@
 		0BABA2581AC2D672004DCE23 /* ZoboonTask */ = {
 			isa = PBXGroup;
 			children = (
+				0B6D7BE51AD0303D00CCFEBD /* Products View Controller */,
+				0BBD182A1AC61372009DBF87 /* Model */,
+				0B7AE7CE1AC4C36A00702D7E /* Connect AFNetworking */,
 				0BABA25D1AC2D672004DCE23 /* AppDelegate.h */,
 				0BABA25E1AC2D672004DCE23 /* AppDelegate.m */,
-				0BABA2601AC2D672004DCE23 /* ViewController.h */,
-				0BABA2611AC2D672004DCE23 /* ViewController.m */,
 				0BABA2631AC2D672004DCE23 /* Main.storyboard */,
+				0BA80C5C1ACC38B1006D8C72 /* zoboon.jpeg */,
 				0BABA2661AC2D672004DCE23 /* Images.xcassets */,
 				0BABA2681AC2D672004DCE23 /* LaunchScreen.xib */,
 				0BABA2591AC2D672004DCE23 /* Supporting Files */,
@@ -98,6 +140,7 @@
 			children = (
 				0BABA25A1AC2D672004DCE23 /* Info.plist */,
 				0BABA25B1AC2D672004DCE23 /* main.m */,
+				0BBD18291AC61132009DBF87 /* Constants.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +162,60 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0BBC18681AC766CC00E2B3B8 /* ProductCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0BBC18691AC766F900E2B3B8 /* ProductCollectionViewCell.h */,
+				0BBC186A1AC766F900E2B3B8 /* ProductCollectionViewCell.m */,
+			);
+			name = ProductCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		0BBD182A1AC61372009DBF87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0BBC18681AC766CC00E2B3B8 /* ProductCollectionViewCell */,
+				0BBD18321AC61E67009DBF87 /* CollectionViewDLayout */,
+				0BBD182B1AC61377009DBF87 /* Products */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0BBD182B1AC61377009DBF87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BBD182C1AC6138F009DBF87 /* Product.h */,
+				0BBD182D1AC6138F009DBF87 /* Product.m */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BBD18321AC61E67009DBF87 /* CollectionViewDLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0BBD182F1AC61E5E009DBF87 /* ProductsCollectionViewLayout.h */,
+				0BBD18301AC61E5F009DBF87 /* ProductsCollectionViewLayout.m */,
+			);
+			name = CollectionViewDLayout;
+			sourceTree = "<group>";
+		};
+		2DEC014A49CA3201DA4D7A21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEE1964C06B7643C10DD0DA6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC195D4E2052258374A59E40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				217E12841C2E25EFB5DB7AB4 /* Pods.debug.xcconfig */,
+				BFD9196C23D4511D0F6A7EC8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BABA2791AC2D672004DCE23 /* Build configuration list for PBXNativeTarget "ZoboonTask" */;
 			buildPhases = (
+				62FE0AFB8B4DDBA0608D2B2B /* Check Pods Manifest.lock */,
 				0BABA2521AC2D672004DCE23 /* Sources */,
 				0BABA2531AC2D672004DCE23 /* Frameworks */,
 				0BABA2541AC2D672004DCE23 /* Resources */,
+				D18B4FC376F960BB7E456B1A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BABA2651AC2D672004DCE23 /* Main.storyboard in Resources */,
+				0BA80C5D1ACC38B1006D8C72 /* zoboon.jpeg in Resources */,
 				0BABA26A1AC2D672004DCE23 /* LaunchScreen.xib in Resources */,
 				0BABA2671AC2D672004DCE23 /* Images.xcassets in Resources */,
 			);
@@ -214,14 +314,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62FE0AFB8B4DDBA0608D2B2B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D18B4FC376F960BB7E456B1A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0BABA2521AC2D672004DCE23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BABA2621AC2D672004DCE23 /* ViewController.m in Sources */,
+				0B7AE7D11AC4C3DE00702D7E /* ConnectUsingAFNetworking.m in Sources */,
+				0BBD182E1AC6138F009DBF87 /* Product.m in Sources */,
+				0BBC186B1AC766F900E2B3B8 /* ProductCollectionViewCell.m in Sources */,
+				0BABA2621AC2D672004DCE23 /* ProductsViewController.m in Sources */,
 				0BABA25F1AC2D672004DCE23 /* AppDelegate.m in Sources */,
 				0BABA25C1AC2D672004DCE23 /* main.m in Sources */,
+				0BBD18311AC61E5F009DBF87 /* ProductsCollectionViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +480,11 @@
 		};
 		0BABA27A1AC2D672004DCE23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217E12841C2E25EFB5DB7AB4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZoboonTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,9 +492,11 @@
 		};
 		0BABA27B1AC2D672004DCE23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD9196C23D4511D0F6A7EC8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZoboonTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +555,7 @@
 				0BABA27B1AC2D672004DCE23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BABA27C1AC2D672004DCE23 /* Build configuration list for PBXNativeTarget "ZoboonTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +564,7 @@
 				0BABA27E1AC2D672004DCE23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
